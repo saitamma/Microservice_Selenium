@@ -125,11 +125,13 @@
 	      <artifactId>maven-surefire-plugin</artifactId>
 	      <configuration>
 	<suiteXmlFiles>
-	<!-- TestNG suite XML files -->
+	 <!-- TestNG suite XML files-->
 	<suiteXmlFile>testng.xml</suiteXmlFile>
 	</suiteXmlFiles>
-	</configuration>
+	</configuration> 
 	    </plugin>
+	    
+	   
 		</plugins>
 	</build>
 </project>

@@ -15,7 +15,8 @@ import org.testng.annotations.AfterTest;
 		@Test				
 		public void testEasy() {	
 			driver.get("http://www.guru99.com/selenium-tutorial.html");  
-			String title = driver.getTitle();				 
+			String title = driver.getTitle();
+			System.out.println(title);
 			Assert.assertTrue(title.contains("Free Selenium Tutorials")); 		
 		}	
 		@BeforeTest
