@@ -35,6 +35,7 @@
 		<start-class>io.pivotal.microservices.services.Main</start-class>
 	</properties>
 
+	
 	<dependencies>
 	
 		<dependency>
@@ -122,6 +123,12 @@
 		<plugin>
 	      <groupId>org.apache.maven.plugins</groupId>
 	      <artifactId>maven-surefire-plugin</artifactId>
+	      <configuration>
+	<suiteXmlFiles>
+	<!-- TestNG suite XML files -->
+	<suiteXmlFile>testng.xml</suiteXmlFile>
+	</suiteXmlFiles>
+	</configuration>
 	    </plugin>
 		</plugins>
 	</build>
