@@ -1,0 +1,1 @@
+java -cp E:\DevOps\Evaluations\Tools\Selenium\lib\*;E:\DevOps\Evaluations\Projects\microservices-demo-master\target\test-classes\ org.testng.TestNG testng.xml
